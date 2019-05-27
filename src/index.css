@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+div.film-box{
+  border: black 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  width: 400px;
+  height: 380px;
+}
+
+h2 {
+  border-bottom: #80808045 3px solid;
+}
+
+a {
+  border: black 1px solid;
+  padding: 5px;
+  background-color: skyblue;
+}
+
+div.film-list {
+  border-bottom: #80808045 3px solid;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+}
